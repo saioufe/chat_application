@@ -54,8 +54,6 @@ socket.on(('message'), (message) => {
     autoScroll()
 })
 
-
-
 socket.on(('locationMessage'), (url) => {
     console.log(url)
     const html = Mustache.render(locationMessageTemplate, {
