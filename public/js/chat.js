@@ -40,7 +40,6 @@ const autoScroll = () => {
     if(containerHeight - newMessageHeight <= scrollOffset){
         $messages.scrollTop = $messages.scrollHeight
     }
-
 }
 socket.on(('message'), (message) => {
     console.log(message)
