@@ -51,7 +51,6 @@ socket.on(('message'), (message) => {
     $messages.insertAdjacentHTML("beforeend", html)
     autoScroll()
 })
-
 socket.on(('locationMessage'), (url) => {
     console.log(url)
     const html = Mustache.render(locationMessageTemplate, {
