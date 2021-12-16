@@ -61,9 +61,6 @@ socket.on(('locationMessage'), (url) => {
     $messages.insertAdjacentHTML("beforeend", html)
     autoScroll()
 })
-
-
-
 $sendMessageForm.addEventListener("submit", (e) => {
     e.preventDefault()
 
