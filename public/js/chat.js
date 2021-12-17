@@ -82,9 +82,6 @@ $sendMessageForm.addEventListener("submit", (e) => {
 
 
 })
-
-
-
 $sendLocationButton.addEventListener("click", (e) => {
     e.preventDefault()
 
