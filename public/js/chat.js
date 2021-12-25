@@ -79,8 +79,6 @@ $sendMessageForm.addEventListener("submit", (e) => {
         }
         console.log("Message Delivered")
     })
-
-
 })
 $sendLocationButton.addEventListener("click", (e) => {
     e.preventDefault()
